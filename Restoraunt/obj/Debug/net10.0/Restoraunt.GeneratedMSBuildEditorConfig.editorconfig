@@ -22,11 +22,11 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Restoraunt
-build_property.ProjectDir = /home/max/Projects/Restoraunt/
+build_property.ProjectDir = /home/max/OFKKT_Course_Project_Restoraunt/Restoraunt/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.EffectiveAnalysisLevelStyle = 10.0
 build_property.EnableCodeStyleSeverity = 
 
-[/home/max/Projects/Restoraunt/App.axaml]
+[/home/max/OFKKT_Course_Project_Restoraunt/Restoraunt/App.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml

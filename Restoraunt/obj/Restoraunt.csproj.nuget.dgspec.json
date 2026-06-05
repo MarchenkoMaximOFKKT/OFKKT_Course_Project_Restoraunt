@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/max/Projects/Restoraunt/Restoraunt.csproj": {}
+    "/home/max/OFKKT_Course_Project_Restoraunt/Restoraunt/Restoraunt.csproj": {}
   },
   "projects": {
-    "/home/max/Projects/Restoraunt/Restoraunt.csproj": {
+    "/home/max/OFKKT_Course_Project_Restoraunt/Restoraunt/Restoraunt.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/max/Projects/Restoraunt/Restoraunt.csproj",
+        "projectUniqueName": "/home/max/OFKKT_Course_Project_Restoraunt/Restoraunt/Restoraunt.csproj",
         "projectName": "Restoraunt",
-        "projectPath": "/home/max/Projects/Restoraunt/Restoraunt.csproj",
+        "projectPath": "/home/max/OFKKT_Course_Project_Restoraunt/Restoraunt/Restoraunt.csproj",
         "packagesPath": "/home/max/.nuget/packages/",
-        "outputPath": "/home/max/Projects/Restoraunt/obj/",
+        "outputPath": "/home/max/OFKKT_Course_Project_Restoraunt/Restoraunt/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/max/.nuget/NuGet/NuGet.Config"
