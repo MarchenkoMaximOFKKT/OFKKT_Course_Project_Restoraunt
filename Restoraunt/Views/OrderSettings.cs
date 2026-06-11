@@ -508,7 +508,7 @@ public class OrderSettings : UserControl{
                 }
             }
         }
-        foreach(var adc in addDishCard) stack.Children.Add(MakeDishCard(adc.Key, adc.Value.dish, adc.Value.count, adc.Value.slider));
+        foreach(var adc in addDishCard) stack.Children.Add(MakeDishCard(adc.Key, adc.Value.dish, (int)adc.Value.slider.Value>adc.Value.count ? (int)adc.Value.slider.Value : adc.Value.count, adc.Value.slider));
         stack.Children.Add(error);
         stack.Children.Add(laterBtn);
         stack.Children.Add(confirmBtn);
