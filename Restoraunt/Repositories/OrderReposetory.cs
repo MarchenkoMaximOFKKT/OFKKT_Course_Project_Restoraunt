@@ -16,9 +16,7 @@ public class OrderRepository{
             using var connection=new NpgsqlConnection(_cs);
             connection.Open();
             string sql="SELECT * FROM Order_ WHERE id=@id";
-            var order=connection.QueryFirstOrDefault<Order>(sql, new {id});
-            if(order!=null) order.Tables=this._tableRepo.GetByOrder(id);
-            return order;
+            return connection.QueryFirstOrDefault<Order>(sql, new {id});
         }
         catch(Exception ex){Console.WriteLine($"OrderRepository.Get: {ex.Message}"); return null;}
     }

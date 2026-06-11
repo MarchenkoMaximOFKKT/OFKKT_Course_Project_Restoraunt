@@ -1,4 +1,4 @@
-using System; 
+using System;
 
 namespace Validators;
 public class DateTimeValidator{
