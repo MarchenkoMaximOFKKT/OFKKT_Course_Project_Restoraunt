@@ -40,7 +40,7 @@ public class CustomerRepository{
         try{
             using var connection=new NpgsqlConnection(_cs);
             connection.Open();
-            string sql="DELETE FROM Customer CASCADE WHERE id=@id";
+            string sql="DELETE FROM Customer WHERE id=@id";
             return connection.Execute(sql, new {id})>0;
         }
         catch(Exception ex){Console.WriteLine($"CustomerRepository.Remove: {ex.Message}"); return false;}
